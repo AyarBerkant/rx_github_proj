@@ -27,6 +27,8 @@ namespace rx_git_proj
     public partial class rx_git_projRepository : RepoGenBaseFolder
     {
         static rx_git_projRepository instance = new rx_git_projRepository();
+        rx_git_projRepositoryFolders.ContinuousIntegrationWithRanorexGitAppFolder _continuousintegrationwithranorexgit;
+        rx_git_projRepositoryFolders.PostaAppFolder _posta;
 
         /// <summary>
         /// Gets the singleton class instance representing the rx_git_projRepository element repository.
@@ -43,6 +45,8 @@ namespace rx_git_proj
         public rx_git_projRepository() 
             : base("rx_git_projRepository", "/", null, 0, false, "7e20721e-c4f1-4eef-a412-a53ef45046c5", ".\\RepositoryImages\\rx_git_projRepository7e20721e.rximgres")
         {
+            _continuousintegrationwithranorexgit = new rx_git_projRepositoryFolders.ContinuousIntegrationWithRanorexGitAppFolder(this);
+            _posta = new rx_git_projRepositoryFolders.PostaAppFolder(this);
         }
 
 #region Variables
@@ -60,6 +64,24 @@ namespace rx_git_proj
                 return _selfInfo;
             }
         }
+
+        /// <summary>
+        /// The ContinuousIntegrationWithRanorexGit folder.
+        /// </summary>
+        [RepositoryFolder("2a2bcf6a-ad72-42d8-9558-90683224c095")]
+        public virtual rx_git_projRepositoryFolders.ContinuousIntegrationWithRanorexGitAppFolder ContinuousIntegrationWithRanorexGit
+        {
+            get { return _continuousintegrationwithranorexgit; }
+        }
+
+        /// <summary>
+        /// The Posta folder.
+        /// </summary>
+        [RepositoryFolder("751ef2f9-c4f4-4e08-8123-8ffe2c6d6285")]
+        public virtual rx_git_projRepositoryFolders.PostaAppFolder Posta
+        {
+            get { return _posta; }
+        }
     }
 
     /// <summary>
@@ -68,6 +90,164 @@ namespace rx_git_proj
     [System.CodeDom.Compiler.GeneratedCode("Ranorex", global::Ranorex.Core.Constants.CodeGenVersion)]
     public partial class rx_git_projRepositoryFolders
     {
+        /// <summary>
+        /// The ContinuousIntegrationWithRanorexGitAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("2a2bcf6a-ad72-42d8-9558-90683224c095")]
+        public partial class ContinuousIntegrationWithRanorexGitAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _pagetablistInfo;
+            RepoItemInfo _simgedurumunakuecueltInfo;
+
+            /// <summary>
+            /// Creates a new ContinuousIntegrationWithRanorexGit  folder.
+            /// </summary>
+            public ContinuousIntegrationWithRanorexGitAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("ContinuousIntegrationWithRanorexGit", "/form[@title>'Continuous Integration with']", parentFolder, 30000, null, true, "2a2bcf6a-ad72-42d8-9558-90683224c095", "")
+            {
+                _pagetablistInfo = new RepoItemInfo(this, "PageTabList", "container[@accessiblename>'Continuous Integration with']/container[@accessiblename='Google Chrome']//tabpagelist[@accessiblerole='PageTabList']", 30000, null, "aec8557a-565f-46cf-8458-34c7c37a50db");
+                _simgedurumunakuecueltInfo = new RepoItemInfo(this, "SimgeDurumunaKuecuelt", "container[@accessiblename>'Continuous Integration with']//button[@accessiblename='Simge durumuna küçült']", 30000, null, "0a28a34c-9cb0-4b9f-9bdd-353290edcd1f");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("2a2bcf6a-ad72-42d8-9558-90683224c095")]
+            public virtual Ranorex.Form Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.Form>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("2a2bcf6a-ad72-42d8-9558-90683224c095")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The PageTabList item.
+            /// </summary>
+            [RepositoryItem("aec8557a-565f-46cf-8458-34c7c37a50db")]
+            public virtual Ranorex.TabPageList PageTabList
+            {
+                get
+                {
+                    return _pagetablistInfo.CreateAdapter<Ranorex.TabPageList>(true);
+                }
+            }
+
+            /// <summary>
+            /// The PageTabList item info.
+            /// </summary>
+            [RepositoryItemInfo("aec8557a-565f-46cf-8458-34c7c37a50db")]
+            public virtual RepoItemInfo PageTabListInfo
+            {
+                get
+                {
+                    return _pagetablistInfo;
+                }
+            }
+
+            /// <summary>
+            /// The SimgeDurumunaKuecuelt item.
+            /// </summary>
+            [RepositoryItem("0a28a34c-9cb0-4b9f-9bdd-353290edcd1f")]
+            public virtual Ranorex.Button SimgeDurumunaKuecuelt
+            {
+                get
+                {
+                    return _simgedurumunakuecueltInfo.CreateAdapter<Ranorex.Button>(true);
+                }
+            }
+
+            /// <summary>
+            /// The SimgeDurumunaKuecuelt item info.
+            /// </summary>
+            [RepositoryItemInfo("0a28a34c-9cb0-4b9f-9bdd-353290edcd1f")]
+            public virtual RepoItemInfo SimgeDurumunaKuecueltInfo
+            {
+                get
+                {
+                    return _simgedurumunakuecueltInfo;
+                }
+            }
+        }
+
+        /// <summary>
+        /// The PostaAppFolder folder.
+        /// </summary>
+        [RepositoryFolder("751ef2f9-c4f4-4e08-8123-8ffe2c6d6285")]
+        public partial class PostaAppFolder : RepoGenBaseFolder
+        {
+            RepoItemInfo _groupheaderInfo;
+
+            /// <summary>
+            /// Creates a new Posta  folder.
+            /// </summary>
+            public PostaAppFolder(RepoGenBaseFolder parentFolder) :
+                    base("Posta", "/winapp[@packagename='microsoft.windowscommunicationsapps']", parentFolder, 30000, null, true, "751ef2f9-c4f4-4e08-8123-8ffe2c6d6285", "")
+            {
+                _groupheaderInfo = new RepoItemInfo(this, "GroupHeader", ".//container[@automationid='MessageListPane']/list[@automationid='ListControl']/?/?/text[@name='28 Eylül 2019 Cumartesi']", 30000, null, "10701ff7-d34b-474d-bcf1-9d6533e58d85");
+            }
+
+            /// <summary>
+            /// The Self item.
+            /// </summary>
+            [RepositoryItem("751ef2f9-c4f4-4e08-8123-8ffe2c6d6285")]
+            public virtual Ranorex.WindowsApp Self
+            {
+                get
+                {
+                    return _selfInfo.CreateAdapter<Ranorex.WindowsApp>(true);
+                }
+            }
+
+            /// <summary>
+            /// The Self item info.
+            /// </summary>
+            [RepositoryItemInfo("751ef2f9-c4f4-4e08-8123-8ffe2c6d6285")]
+            public virtual RepoItemInfo SelfInfo
+            {
+                get
+                {
+                    return _selfInfo;
+                }
+            }
+
+            /// <summary>
+            /// The GroupHeader item.
+            /// </summary>
+            [RepositoryItem("10701ff7-d34b-474d-bcf1-9d6533e58d85")]
+            public virtual Ranorex.Text GroupHeader
+            {
+                get
+                {
+                    return _groupheaderInfo.CreateAdapter<Ranorex.Text>(true);
+                }
+            }
+
+            /// <summary>
+            /// The GroupHeader item info.
+            /// </summary>
+            [RepositoryItemInfo("10701ff7-d34b-474d-bcf1-9d6533e58d85")]
+            public virtual RepoItemInfo GroupHeaderInfo
+            {
+                get
+                {
+                    return _groupheaderInfo;
+                }
+            }
+        }
+
     }
 #pragma warning restore 0436
 }

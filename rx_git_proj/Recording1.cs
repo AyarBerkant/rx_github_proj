@@ -79,6 +79,18 @@ namespace rx_git_proj
 
             Init();
 
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ContinuousIntegrationWithRanorexGit.PageTabList' at 1308;23.", repo.ContinuousIntegrationWithRanorexGit.PageTabListInfo, new RecordItemIndex(0));
+            repo.ContinuousIntegrationWithRanorexGit.PageTabList.Click("1308;23");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ContinuousIntegrationWithRanorexGit.SimgeDurumunaKuecuelt' at 10;21.", repo.ContinuousIntegrationWithRanorexGit.SimgeDurumunaKuecueltInfo, new RecordItemIndex(1));
+            repo.ContinuousIntegrationWithRanorexGit.SimgeDurumunaKuecuelt.Click("10;21");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Posta.GroupHeader' at 101;51.", repo.Posta.GroupHeaderInfo, new RecordItemIndex(2));
+            repo.Posta.GroupHeader.Click("101;51");
+            Delay.Milliseconds(0);
+            
         }
 
 #region Image Feature Data

@@ -1,18 +1,103 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<repository
-name="rx_git_projRepository"
-id="5c5b7a8c-b9d3-48a0-8652-c96c88d29779">
-  <codegen
-  classname="rx_git_projRepository"
-  namespace="rx_git_proj"/>
-  <rootfolder
-  name="Root"
-  id="7e20721e-c4f1-4eef-a412-a53ef45046c5"
-  searchtimeout="30000ms"
-  capname="unknown"
-  isrooted="True"
-  usecache="True">
-      <basepath/>
-  </rootfolder>
-  <variables/>
+﻿<repository
+id="5c5b7a8c-b9d3-48a0-8652-c96c88d29779"
+name="rx_git_projRepository">
+	<codegen
+	classname="rx_git_projRepository"
+	namespace="rx_git_proj">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="7e20721e-c4f1-4eef-a412-a53ef45046c5"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="2a2bcf6a-ad72-42d8-9558-90683224c095"
+		isrooted="True"
+		name="ContinuousIntegrationWithRanorexGit"
+		refpath="/form[@title='Continuous Integration with Ranorex Git &amp; Jenkins part 1 - YouTube - Google Chrome']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="tabpagelist,accessible"
+			capname="tabpagelist"
+			id="aec8557a-565f-46cf-8458-34c7c37a50db"
+			name="PageTabList"
+			refimgid="1c28e7c6-0a19-4adb-aee2-3f5d551b2c1e"
+			refpath="/form[@title>'Continuous Integration with']/container/container/container[2]/container[1]/container[1]/tabpagelist[@accessiblerole='PageTabList']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Continuous Integration with']/container[@accessiblename&gt;'Continuous Integration with']/container[@accessiblename='Google Chrome']//tabpagelist[@accessiblerole='PageTabList']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="0a28a34c-9cb0-4b9f-9bdd-353290edcd1f"
+			name="SimgeDurumunaKuecuelt"
+			refimgid="cdc8a28d-d6c7-47d1-baaf-52a73a89b4f0"
+			refpath="/form[@title>'Continuous Integration with']/container/container/container[1]/button[@accessiblename='Simge durumuna küçült']"
+			searchtimeout="30000ms">
+				/form[@title&gt;'Continuous Integration with']/container[@accessiblename&gt;'Continuous Integration with']//button[@accessiblename='Simge durumuna k&#252;&#231;&#252;lt']
+			</item>
+			<basepath>
+				/form[@title&gt;'Continuous Integration with']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAANfSURBVDhPrZJdTFJhGMfP+ryoObNQs1qulaVb
+H8407PAlBzU0DBAslUjWtFWWXbS8yWgrymiZXmQ5FbHC1oeUmTpDsyxIBNtatshzyIo2XR/LSAOE
+89ThyEVbt/23Z+/N+/v93+19kP8WNYLMUickLHRIM9b1Z3HKe7axWk2ZLKtJsHXIhKV2PBYwT9kF
+KLMmZXWYHEFmh7CZBOEDCQnRfdncXU6ZsIPIzXxHSNPdhFgwTezA/CM5aZO4iOcayeY+svCZ+8rW
+rozlcrlzQjiCUPDCO0L2zjfSDLszN9OLS9NJXCwAXIyRhASbHhHzpvEcrm9ExJnCt7NGrRnJ+zWb
+VjNCOIJINfnrtGXiDqtM4KXagRIALskAvGD7NHFY8pEo4TvxvWyCULFxQsXCiSK0/W1eKue3Wj2L
+FsRd2Fku0+Q5DfkY+VqEgaO0GKy116H1hp003HrptbQZPe/uHPJ8vYF5Jm5zPD+N7LFPBrSqT5sc
+TQtWnJcZE2t3u0uPiqA/hwfmS1dBq3NC8ZUJKKp1Q8U1Fzx70gaTA7vAP4BRk+Yd72b1DTZsXksL
+YrSywVidyo9WF4J+TxY0t9hoOPucG4SVbsir/gH6Lgd8sx8E0pYOpD0tMP4QdQw0pmykBVFa6YsV
+elUgrrEIlGcUcME4DKrLbsii4KAgt8oNdQ+c8MV2eEZgSyPHulHC2pS8iRZEaiUdMXrl1HLdHohv
+UJLnTH1TR66O+4PNQXh//ZdA51Pz1OQLpZ+08YMC39hD1PK8eUs8LWBUSU5F65WuaJ0SljYpQXS3
+0l/e1UOeuIfD8dZRuNLdT76yarw+e3aAgoOC75972XVDLVtjaEFEbR4zqlnZE6lT+KiB5XoVbDCU
+AXqzAjiGk3Cxcx/53iIiAzTMJQN23iu3mS8bHpbPmxEcSglbUiMvYTQpXAxKQE9jIURR56r6QjD1
+Cslf1uDTebRg0syu0J/euIyG6ciR2eHSxJXh1dJSRqPCHtFQ8HVxQ4E3Vp/v194X+VwWgcc/yPtO
+N1s4JyqPrYkvSUqaG6JDoXZ7gSI1MkKnSF90SVbFqM59lHRZPGwy8hwfulDz5160bsLClwebk/6B
+/w61ngs0oqglamEc8yy2vp366+f1ifFDLYkxnTXb5oduhYIgfwD0+8wQUcC9ZQAAAABJRU5ErkJg
+gg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,uiautomation,nativewindow,windowsapp"
+		capname="windowsapp"
+		id="751ef2f9-c4f4-4e08-8123-8ffe2c6d6285"
+		isrooted="True"
+		name="Posta"
+		refpath="/winapp[@packagename='microsoft.windowscommunicationsapps']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,uiautomation"
+			capname="text"
+			id="10701ff7-d34b-474d-bcf1-9d6533e58d85"
+			name="GroupHeader"
+			refimgid="e98425c9-c183-43f4-9e23-9fdabb6d4dd6"
+			refpath="/winapp[@packagename='microsoft.windowscommunicationsapps']/container/container/container[@automationid='MessageListPane']/list/text[@name='28 Eylül 2019 Cumartesi']/text[@automationid='GroupHeader']"
+			searchtimeout="30000ms">
+				/winapp[@packagename='microsoft.windowscommunicationsapps']//container[@automationid='MessageListPane']/list[@automationid='ListControl']/?/?/text[@name='28 Eyl&#252;l 2019 Cumartesi']
+			</item>
+			<basepath>
+				/winapp[@packagename='microsoft.windowscommunicationsapps']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACDSURBVDhPY2CouP6fIoxVkBSMVRCIE1Y/+w8D
+D97/wqoGjNEFkDWiA6wGwRj4NKIDFINI0YgOwAbBGTATicQwi8EGwAAxBqG7GMUAGMBmEC6vYjUA
+BpAN+vD9L1QUFeA1AAZgBi04+wEqggBEGQADIIOICgNCANk7ZBmADAY6N17/DwAijS/KQygu2gAA
+AABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
 </repository>
