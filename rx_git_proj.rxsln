@@ -4,12 +4,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Ranorex Studio 9.1.0
 VisualStudioVersion = 12.0.20827.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rx_git_proj", "rx_git_proj\rx_git_proj.csproj", "{23902879-3755-42B0-9F9F-FAB97168E10E}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{276A33D6-E328-4A6B-BF85-C18AC5F90AE8}"
 	ProjectSection(SolutionItems) = postProject
 		Ranorex = .\Ranorex.rxsettings
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "rx_git_proj", "rx_git_proj\rx_git_proj.csproj", "{23902879-3755-42B0-9F9F-FAB97168E10E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ranorex Automation Helpers", "RanorexAutomationHelpers\Ranorex Automation Helpers.csproj", "{68C01852-B845-4DE4-A50C-146A43C46DF6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,5 +23,9 @@ Global
 		{23902879-3755-42B0-9F9F-FAB97168E10E}.Debug|x86.ActiveCfg = Debug|x86
 		{23902879-3755-42B0-9F9F-FAB97168E10E}.Release|x86.Build.0 = Release|x86
 		{23902879-3755-42B0-9F9F-FAB97168E10E}.Release|x86.ActiveCfg = Release|x86
+		{68C01852-B845-4DE4-A50C-146A43C46DF6}.Debug|x86.Build.0 = Debug|x86
+		{68C01852-B845-4DE4-A50C-146A43C46DF6}.Debug|x86.ActiveCfg = Debug|x86
+		{68C01852-B845-4DE4-A50C-146A43C46DF6}.Release|x86.Build.0 = Release|x86
+		{68C01852-B845-4DE4-A50C-146A43C46DF6}.Release|x86.ActiveCfg = Release|x86
 	EndGlobalSection
 EndGlobal

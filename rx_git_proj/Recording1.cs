@@ -91,6 +91,9 @@ namespace rx_git_proj
             repo.Posta.GroupHeader.Click("101;51");
             Delay.Milliseconds(0);
             
+            Ranorex.AutomationHelpers.UserCodeCollections.EmailLibrary.SendEmail("", "", "", "", "", "", ValueConverter.ArgumentFromString<int>("serverPort", "0"), ValueConverter.ArgumentFromString<bool>("useSSL", "False"), "", "");
+            Delay.Milliseconds(0);
+            
         }
 
 #region Image Feature Data
