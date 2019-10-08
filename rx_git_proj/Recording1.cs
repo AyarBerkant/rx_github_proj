@@ -87,10 +87,6 @@ namespace rx_git_proj
             repo.ContinuousIntegrationWithRanorexGit.SimgeDurumunaKuecuelt.Click("10;21");
             Delay.Milliseconds(0);
             
-            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'Posta.GroupHeader' at 101;51.", repo.Posta.GroupHeaderInfo, new RecordItemIndex(2));
-            repo.Posta.GroupHeader.Click("101;51");
-            Delay.Milliseconds(0);
-            
             Ranorex.AutomationHelpers.UserCodeCollections.EmailLibrary.SendEmail("", "", "", "", "", "", ValueConverter.ArgumentFromString<int>("serverPort", "0"), ValueConverter.ArgumentFromString<bool>("useSSL", "False"), "", "");
             Delay.Milliseconds(0);
             
